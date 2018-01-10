@@ -1,12 +1,22 @@
-*{outline:1px solid red;}
+*{outline:1px solid white;}
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Oswald');
 
 body {
   font-family: 'Alegreya', serif;
+  background-color: white;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
 h2 {
   font-size: 1.35rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  line-height: 1.25rem;
 }
